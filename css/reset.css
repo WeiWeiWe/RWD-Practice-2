@@ -1,0 +1,27 @@
+/* GLOBAL*/
+* {
+    box-sizing: border-box;
+    font-family: "Lato", "微軟正黑體";
+}
+:root {
+    --primaryColor: #da1842;
+    --dark: #333;
+    --light: #eee;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,img {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+ul,ol,li {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+
